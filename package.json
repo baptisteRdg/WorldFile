@@ -1,0 +1,15 @@
+{
+  "name": "worldfile",
+  "version": "1.0.0",
+  "description": "otre projet semble intéressant ! Vous souhaitez créer une application web qui fonctionne comme un dépôt géant permettant à tout le monde de déposer des fichiers ou d'autres éléments sans avoir à créer de compte. Vous voulez que les utilisateurs puissent créer un dépôt avec un nom unique et éventuellement y ajouter un mot de passe pour plus de confidentialité. Les personnes qui connaissent le nom du dépôt pourront y accéder et partager des fichiers de manière anonyme et simple, tout en préservant un minimum de confidentialité.",
+  "main": "console.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.9.0"
+  }
+}
