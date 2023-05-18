@@ -1,0 +1,18 @@
+
+//////////////////////////////////////////////////////
+//      Permet de vérifier si un dossier existe     //
+//////////////////////////////////////////////////////
+ function findFileByName(id){if (require('fs').existsSync(id)) {return true}return false}
+
+
+//////////////////////////////////////////////////////
+//     Retourne les stats d'un dossier              //
+//////////////////////////////////////////////////////
+ function giveDataFile(file){if(findFileByName(file)== true){return require('fs').statSync(file)} return false}
+
+
+
+
+
+////////////////////    MAIN    ////////////////////
+console.log(giveDataFile('DATA'))
