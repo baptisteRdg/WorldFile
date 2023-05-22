@@ -20,3 +20,15 @@ function traverseDirectory(directoryPath) {
 const directoryPath = 'DATA';
 
 traverseDirectory(directoryPath);
+
+
+//////////////////////////////////////////////////////
+// Check if he is JSON                              //
+//  In : 
+//  Out : True if is JSON                           //
+//////////////////////////////////////////////////////
+function isStatFile(str) {
+  try {JSON.parse(str);return true;} 
+  catch (error) {return false;}
+}
+
